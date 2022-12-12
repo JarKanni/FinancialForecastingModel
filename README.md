@@ -11,7 +11,8 @@ Utitlized Excel functions such as INDEX(), MATCH(), OFFSET().
 
 ## Projectdata_NYSE
 Raw data received for project.
-###Columns
+
+### Columns
   - Index
   - Symbol
   - Year_num
@@ -58,16 +59,17 @@ Dynamic 4 Year Profit and Loss Statement changing upon selecting a new symbol fr
 
 ## Forecasting Model
 Dynamic Financial Forecasting Model changning upon selecting a new symbol from the Yellow drop down menu.
-###Income Statement
+
+### Income Statement
 - same as PnL statement with Years 1-4
 - plus Forecast years (2018, 2019, 2020)
 
-###Operating Statistics
+### Operating Statistics
 - Revenue Growth (%)
 - Gross Margin
 - Operating Margin
 
-###Scenarios:
+### Scenarios:
 - Weak case (-0.01%)
 - Base case (0.0%)
 - Strong case (+0.01%)
