@@ -1,4 +1,4 @@
-# FinancialForecastingModel
+# Financial Forecasting Model
 Financial Forecasting Model and PnL Statement using historical NYSE data
 
 # Name
@@ -89,5 +89,7 @@ or
 
 # Contact Information
 **Name:** Jared R. Kannianen
+
 **Organization:** Masterschool - Data Analyst
+
 **Email:** jarkanni@campus.masterschool.com
