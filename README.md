@@ -84,7 +84,8 @@ or
 - (free) Google Sheets
 
 # References
-Udacity Data Analyst Coursework
+Udacity
+- Data Analyst Coursework
 <a href="https://www.geeksforgeeks.org/how-to-merge-multiple-csv-files-into-a-single-pandas-dataframe/">Geeks for Geeks</a>
 - Used for combining multiple .csv files with pd.concat() and map()
 
