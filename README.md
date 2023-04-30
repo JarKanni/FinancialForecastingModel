@@ -87,15 +87,15 @@ Dynamic Financial Forecasting Model changning upon selecting a new symbol from t
 
 
 # References
-Udacity
-- Data Analyst Coursework
+- Udacity project
+- <a href="https://www.geeksforgeeks.org/how-to-merge-multiple-csv-files-into-a-single-pandas-dataframe/">Geeks for Geeks</a>
+  - Used for combining multiple .csv files with pd.concat() and map()
+- Masterschool program
 
-<a href="https://www.geeksforgeeks.org/how-to-merge-multiple-csv-files-into-a-single-pandas-dataframe/">Geeks for Geeks</a>
-- Used for combining multiple .csv files with pd.concat() and map()
 
 # Contact Information
-**Name:** Jared R. Kannianen
-
-**Organization:** Masterschool - Data Analyst
-
-**Email:** jarkanni@campus.masterschool.com
+_Name:_ Jared R. Kannianen
+<br />
+_Organization:_ Masterschool - Data Analyst
+<br />
+_Email:_ jarkanni@campus.masterschool.com
