@@ -1,32 +1,40 @@
-# Financial Forecasting Model
-Financial Forecasting Model and PnL Statement using historical NYSE data
+# Financial Forecasting Model & PnL Statement
+Excel Financial Forecasting Model and PnL Statement using historical NYSE data
 
-# Name
-Financial Forecasting Model & PnL Statement
 
-# Introduction
-Created dynamic dashboards for a Profit and Loss Statement and Forecasting Model using historical NYSE data. 
-Four sheets total: Projectdata_NYSE, Summary Statistics, PnL Statement, Forecasting Model
-Utitlized Excel functions such as INDEX(), MATCH(), OFFSET().
+# Explanation
+Dynamic dashboards for a Profit and Loss Statement and Forecasting Model using statistical analysis on historical NYSE data. 
+- Excel functions such as INDEX(), MATCH(), OFFSET()
+- Summary Statistics
+- Dynamic (auto-updating) spreadsheets
+- Four sheets total: 
+  - Projectdata_NYSE
+  - Summary Statistics
+  - PnL Statement
+  - Forecasting Model
 
-## Projectdata_NYSE
-Raw data received for project.
 
-### Columns
-  - Index
-  - Symbol
-  - Year_num
-  - Year
-  - Total_Revenue
-  - CoGS
-  - Sales_General_and_Admin
-  - Research_and_Development
-  - Other_Operating_Items
-  - GICS_Sector
-  - GICS_Industry
-  - symbol_list
+# Files
+## NYSE_Kannianen.xlsx
+- Excel file containing all sheets
 
-## Summary Statistics
+### Projectdata_NYSE
+- raw data received for project
+  ##### Columns
+    - Index
+    - Symbol
+    - Year_num
+    - Year
+    - Total_Revenue
+    - CoGS
+    - Sales_General_and_Admin
+    - Research_and_Development
+    - Other_Operating_Items
+    - GICS_Sector
+    - GICS_Industry
+    - symbol_list
+
+### Summary Statistics
 Statistical analysis answering the question: "Which IT sub-industry spent the most on average CoGS?"
 - Pivot Tabel utitlized to find Average CoGS across the IT industry.  
 - Secondary table finds Difference from Mean CoGS by sub-industry.
@@ -46,7 +54,7 @@ Statistical analysis answering the question: "Which IT sub-industry spent the mo
   - Std Dev (Standard Deviation)
 
 
-## PnL Statement
+### PnL Statement
 Dynamic 4 Year Profit and Loss Statement changing upon selecting a new symbol from the Yellow drop down menu.
 - Total Revenue
   - Costs of Goods Sold
@@ -57,31 +65,26 @@ Dynamic 4 Year Profit and Loss Statement changing upon selecting a new symbol fr
 - Total operating expenses
 - Operating income/EBIT
 
-## Forecasting Model
+### Forecasting Model
 Dynamic Financial Forecasting Model changning upon selecting a new symbol from the Yellow drop down menu.
 
-### Income Statement
+##### Income Statement
 - same as PnL statement with Years 1-4
 - plus Forecast years (2018, 2019, 2020)
 
-### Operating Statistics
+##### Operating Statistics
 - Revenue Growth (%)
 - Gross Margin
 - Operating Margin
 
-### Scenarios:
+##### Scenarios:
 - Weak case (-0.01%)
 - Base case (0.0%)
 - Strong case (+0.01%)
 
-# Requirements
-- ability to read .xlsx (Excel) files
-- general knowledge of financial terms/stock pricing may help
+# Tools
+- Spreadsheet reader (Excel, etc)
 
-# Installation
-- Excel
-or
-- (free) Google Sheets
 
 # References
 Udacity
